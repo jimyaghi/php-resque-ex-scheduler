@@ -1,5 +1,5 @@
 {
-	"name": "kamisama/php-resque-ex-scheduler",
+	"name": "jimyaghi/php-resque-ex-scheduler",
 	"type": "library",
 	"description": "php-resque-ex-scheduler is a PHP port of resque-scheduler, which adds support for scheduling jobs to PHP-Resque.",
 	"keywords": ["job", "background", "redis", "resque", "queue", "php", "schedule", "cron"],
@@ -13,6 +13,11 @@
 			"name": "Wan Qi chen",
 			"email": "kami@kamisama.me",
 			"homepage": "http://www.kamisama.me"
+		},
+                {
+			"name": "Jim Yaghi",
+			"email": "jim@jimyaghi.com",
+			"homepage": "http://www.jimyaghi.com"
 		}
 	],
 	"autoload": {
@@ -26,6 +31,6 @@
 		"source": "https://github.com/kamisama/php-resque-ex-scheduler"
 	},
 	"require": {
-		"kamisama/php-resque-ex": ">=1.2.1"
+		"jimyaghi/php-resque-ex": ">=1.2.1"
 	}
 }
